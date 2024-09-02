@@ -23,7 +23,7 @@ const Dashboard = () => {
       <StatCard
         title="Customer & Expenses"
         primaryIcon={<Package className="text-blue-600 w-6 h-6" />}
-        dateRange="22-29 October 2024"
+        dateRange="22 - 29 October 2023"
         details={[
           {
             title: 'Customer Growth',
@@ -42,7 +42,7 @@ const Dashboard = () => {
       <StatCard
         title="Dues & Pending Orders"
         primaryIcon={<CheckCircle className="text-blue-600 w-6 h-6" />}
-        dateRange="22-29 October 2024"
+        dateRange="22 - 29 October 2023"
         details={[
           {
             title: 'Dues',
@@ -52,7 +52,7 @@ const Dashboard = () => {
           },
           {
             title: 'Pending Orders',
-            amount: '147.00',
+            amount: '147',
             changePercentage: -56,
             IconComponent: TrendingDown,
           },
@@ -61,7 +61,7 @@ const Dashboard = () => {
       <StatCard
         title="Sales & Discount"
         primaryIcon={<Tag className="text-blue-600 w-6 h-6" />}
-        dateRange="22-29 October 2024"
+        dateRange="22 - 29 October 2023"
         details={[
           {
             title: 'Sales',
